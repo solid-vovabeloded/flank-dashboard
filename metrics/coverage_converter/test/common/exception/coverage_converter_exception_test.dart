@@ -11,7 +11,7 @@ void main() {
     test(
       ".message returns no such file error message if the given code is `noSuchFile`",
       () {
-        final expectedMessage = CommonStrings.noSuchFile;
+        const expectedMessage = CommonStrings.noSuchFile;
 
         const coverageConverterException =
             CoverageConverterException(CoverageConverterErrorCode.noSuchFile);
@@ -23,7 +23,7 @@ void main() {
     test(
       ".message returns file is empty error message if the given code is `fileIsEmpty`",
       () {
-        final expectedMessage = CommonStrings.fileIsEmpty;
+        const expectedMessage = CommonStrings.fileIsEmpty;
 
         const coverageConverterException =
             CoverageConverterException(CoverageConverterErrorCode.fileIsEmpty);
@@ -35,7 +35,7 @@ void main() {
     test(
       ".message returns invalid file format error message if the given code is `invalidFileFormat`",
       () {
-        final expectedMessage = CommonStrings.invalidFileFormat;
+        const expectedMessage = CommonStrings.invalidFileFormat;
 
         const coverageConverterException = CoverageConverterException(
             CoverageConverterErrorCode.invalidFileFormat);
