@@ -77,8 +77,8 @@ jobs:
 
       - uses: cedx/setup-dart@v2
         with:
-          release-channel: beta
-          version: 2.12.0-133.2.beta
+          release-channel: stable
+          version: 2.13.4
 
       - name: Get Dependencies
         run: pub get
@@ -112,13 +112,13 @@ jobs:
 
       - uses: subosito/flutter-action@v1
         with:
-          channel: beta
-          flutter-version: 1.25.0-8.2.pre
+          channel: stable
+          flutter-version: 2.2.3
 
       - uses: cedx/setup-dart@v2
         with:
-          release-channel: beta
-          version: 2.12.0-133.2.beta
+          release-channel: stable
+          version: 2.13.4
 
       - name: Configure Flutter
         run: flutter config --enable-web && flutter doctor
@@ -165,8 +165,8 @@ jobs:
 
       - uses: cedx/setup-dart@v2
         with:
-          release-channel: beta
-          version: 2.12.0-133.2.beta
+          release-channel: stable
+          version: 2.13.4
 
       - name: Get dependencies
         run: pub get
@@ -199,8 +199,8 @@ jobs:
 
       - uses: cedx/setup-dart@v2
         with:
-          release-channel: beta
-          version: 2.12.0-133.2.beta
+          release-channel: stable
+          version: 2.13.4
 
       - name: Get Dependencies
         run: pub get
@@ -229,8 +229,8 @@ jobs:
 
       - uses: cedx/setup-dart@v2
         with:
-          release-channel: beta
-          version: 2.12.0-133.2.beta
+          release-channel: stable
+          version: 2.13.4
 
       - name: Get dependencies
         run: pub get
@@ -259,8 +259,8 @@ jobs:
 
       - uses: cedx/setup-dart@v2
         with:
-          release-channel: beta
-          version: 2.12.0-133.2.beta
+          release-channel: stable
+          version: 2.13.4
 
       - name: Get Dependencies
         run: pub get
@@ -287,8 +287,8 @@ jobs:
 
       - uses: cedx/setup-dart@v2
         with:
-          release-channel: beta
-          version: 2.12.0-133.2.beta
+          release-channel: stable
+          version: 2.13.4
 
       - name: Get dependencies
         run: pub get
