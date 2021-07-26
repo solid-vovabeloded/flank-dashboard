@@ -128,9 +128,9 @@ jobs:
         run: flutter pub get
         working-directory: metrics/web/
 
-      - name: Flutter analyze
-        run: flutter analyze
-        working-directory: metrics/web/
+#      - name: Flutter analyze
+#        run: flutter analyze
+#        working-directory: metrics/web/
 
       - name: Flutter test
         run: flutter test
