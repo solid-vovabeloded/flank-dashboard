@@ -18,6 +18,7 @@ import 'package:metrics/platform/stub/platform_configuration/platform_configurat
 import 'package:metrics/util/favicon.dart';
 import 'package:universal_html/html.dart';
 
+
 Future<void> main() async {
   PlatformConfiguration.configureApp();
   Favicon().setup();
